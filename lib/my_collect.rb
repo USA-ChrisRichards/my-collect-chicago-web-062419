@@ -6,7 +6,7 @@ def my_collect(collection)
     n = n + 1
     final_collection << element
   end
-   final_collection
+   final_collection.upcase
 end
 
  
