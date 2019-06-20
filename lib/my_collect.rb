@@ -4,7 +4,7 @@ def my_collect(collection)
   while n < collection.size
     element = collection[n]
     n = n + 1
-    final_collection << element
+    final_collection << yield(element)
   end
    final_collection
 end
